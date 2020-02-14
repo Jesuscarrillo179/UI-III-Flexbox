@@ -31,9 +31,6 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
 }
-ol, ul {
-	list-style: none;
-}
 blockquote, q {
 	quotes: none;
 }
@@ -50,7 +47,7 @@ table {
 /* Set every element's box-sizing to border-box */
 * {
 	box-sizing: border-box;
-	border:1px solid red;
+	border:0px solid red;
 }
 
 html, body {
@@ -206,6 +203,88 @@ span.phonenumber {
 	text-decoration: none;
 	color:black;
 }
+/*--------------Services Page----------------*/
+img.services-header-img {
+	width: 100%;
+}
+ /*Service Section*/
+ section.servicesSection{
+	 width: 100%;
+	 padding-top: 2%;
+	 padding-bottom: 2%;
+ }
+ h2 {
+	 font-size: 45px;
+ }
+ p {
+	line-height: 23px;
+ }
+/*Classes Section*/
+section.classes {
+	width: 100%;
+	padding-top: 2%;
+	padding-bottom: 2%;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
 
+div.modules {
+	padding-top: 2%;
+	padding-bottom: 2%;
+	width: 48%;
+}
+div.choices {
+   padding:3%;
+   border: 1px solid black;
+}
+div.learnbutton {
+	padding-top: 2%;
+	display: flex;
+	width: 100%;
+}
+div.learnbutton a{
+	padding:10px 40px 10px 40px;
+	border: 1px solid black;
+	text-decoration: none;
+	color:black;
+	border-radius: 5px;
+}
 
+div.learnbutton a:hover{
+	color:lightgrey;
+	border: 1px solid lightgrey;
+	border-radius: 5px;
+}
+/*Bottom Section*/
 
+section.bottom {
+	width: 100%;
+	padding-top: 2%;
+	padding-bottom: 2%;
+	display: flex;
+	justify-content: space-between;
+}
+div.bottomhalf {
+	display: flex;
+	width: 46.5%;
+	flex-direction: column;
+	justify-content: space-between;
+}
+div.cimg {
+	width: 48%;
+}
+img.services-info-img {
+	width: 100%;
+}
+div.list{
+	display: flex;
+	padding-left: 20px;
+	align-content: center;
+	height: 80%;
+
+}
+ul {
+	line-height: 20px;
+	align-self: center;
+}
